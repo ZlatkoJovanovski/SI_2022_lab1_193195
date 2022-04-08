@@ -158,9 +158,9 @@ git add .
 Правам commit на претходно модифицираниот фајл. 
 git commit -m "Merge conflict resolved"
 
-Го додавам 193195.txt фајлот кон репозиториумот правам commit на новододадениот фајл.
-git add "C:\Users\user\Documents\github\labs\193195.txt"
-git commit -m “Add docs”
+Го додавам 193195.txt фајлот кон репозиториумот и правам commit на новододадениот фајл.
+git add "C:\Users\user\Documents\github\labs\SI_2022_lab1_193195\193195.txt"
+git commit -a -m “Add docs”
 
 Ги синхронизирам сите гранки со оддалечениот репозипориум.
 git push origin --all
