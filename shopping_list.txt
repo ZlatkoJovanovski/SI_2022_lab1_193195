@@ -1,5 +1,5 @@
-Milk
-Water
-Chocolate
-Apples
-Cheese
+Milk x2
+Water x5
+Chocolate x1
+Apples x3
+Cheese x1
