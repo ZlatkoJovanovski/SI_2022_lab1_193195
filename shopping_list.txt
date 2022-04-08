@@ -3,3 +3,4 @@ Water x5
 Chocolate x1
 Oranges x3
 Cheese x1
+Salt x1
