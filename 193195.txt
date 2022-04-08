@@ -1,0 +1,166 @@
+Го клонирам оддалечениот репозиториум.
+git clone https://github.com/ZlatkoJovanovski/SI_2022_lab1_193195.git
+
+Влегувам во клонираниот репозиториум.
+cd SI_2022_lab1_193195
+
+Правам commit на претходно внесените производи во shopping_list.txt фајлот.
+git commit -a -m “Add 5 items to the shopping list"
+
+Правам commit на претходно внесен квантитет на секој од производите во .txt фајлот.
+git commit -a -m “Add quantities to the items"
+
+Креирам две нови гранки.
+git checkout -b branch1
+git checkout -b branch2
+
+Ги прикажувам досегашните commit-и.
+git log
+
+commit 74455bf00d7fbdcea85c052c0893e8ac76bbb9b2 (HEAD -> branch2, master, branch1)
+Author: BuildTools <unconfigured@null.spigotmc.org>
+Date:   Fri Apr 8 14:51:49 2022 +0200
+
+    Add quantities to the items
+
+commit 9d8cbd7d76e1fb2e08db18466cecc3909dc8377d
+Author: BuildTools <unconfigured@null.spigotmc.org>
+Date:   Fri Apr 8 14:50:09 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 5a7ada4f91239046c7ab65ed8d25bf3dc8c6f2d0 (origin/master, origin/HEAD)
+Author: ZlatkoJovanovski <102656383+ZlatkoJovanovski@users.noreply.github.com>
+Date:   Fri Apr 8 14:42:04 2022 +0200
+
+    Update README.md
+
+commit 521daddfb9edfb95d2c082876bc651dcd0aa8079
+Author: ZlatkoJovanovski <102656383+ZlatkoJovanovski@users.noreply.github.com>
+Date:   Fri Apr 8 14:41:47 2022 +0200
+
+    Initial commit
+
+Ги синхронизирам сите гранки со оддалечениот репозипориум.
+git push origin --all
+
+Се префрлам на гранка branch1.
+git checkout branch1
+
+Правам commit на претходно сменет квантитет на петтиот производ во фајлот shopping_list.txt.
+git commit -a -m “Change quantity of item #5"
+
+Се префрлам на гранка master.
+git checkout master
+
+Правам commit на претходно сменет квантитет на вториот производ во фајлот shopping_list.txt.
+git commit -a -m “Change quantity of item #2"
+
+Ги синхронизирам сите гранки со оддалечениот репозипориум.
+git push origin --all
+
+Се префрлам на гранка branch2.
+git checkout branch2
+
+Правам commit на претходно сменет производ во фајлот shopping_list.txt.
+git commit -a -m “Modify item #4"
+
+Ги прикажувам досегашните commit-и.
+git log
+
+commit 24aaa48f831a7489f051add5f26193ab52cac0ee (HEAD -> branch2)
+Author: BuildTools <unconfigured@null.spigotmc.org>
+Date:   Fri Apr 8 15:03:09 2022 +0200
+
+    Modify item #4
+
+commit 74455bf00d7fbdcea85c052c0893e8ac76bbb9b2 (origin/branch2)
+Author: BuildTools <unconfigured@null.spigotmc.org>
+Date:   Fri Apr 8 14:51:49 2022 +0200
+
+    Add quantities to the items
+
+commit 9d8cbd7d76e1fb2e08db18466cecc3909dc8377d
+Author: BuildTools <unconfigured@null.spigotmc.org>
+Date:   Fri Apr 8 14:50:09 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 5a7ada4f91239046c7ab65ed8d25bf3dc8c6f2d0
+Author: ZlatkoJovanovski <102656383+ZlatkoJovanovski@users.noreply.github.com>
+Date:   Fri Apr 8 14:42:04 2022 +0200
+
+    Update README.md
+
+commit 521daddfb9edfb95d2c082876bc651dcd0aa8079
+Author: ZlatkoJovanovski <102656383+ZlatkoJovanovski@users.noreply.github.com>
+Date:   Fri Apr 8 14:41:47 2022 +0200
+
+    Initial commit
+
+Правам commit на претходно сменет и нов додаден производ во фајлот shopping_list.txt.
+git commit -a -m “Modify item #4 and add item #6"
+
+Ги прикажувам досегашните commit-и.
+git log
+
+commit de778bd36ce4781ef6f6d92954eabf8cbb96900f (HEAD -> branch2)
+Author: BuildTools <unconfigured@null.spigotmc.org>
+Date:   Fri Apr 8 15:06:08 2022 +0200
+
+    Modify item #4 and add item #6
+
+commit 24aaa48f831a7489f051add5f26193ab52cac0ee
+Author: BuildTools <unconfigured@null.spigotmc.org>
+Date:   Fri Apr 8 15:03:09 2022 +0200
+
+    Modify item #4
+
+commit 74455bf00d7fbdcea85c052c0893e8ac76bbb9b2 (origin/branch2)
+Author: BuildTools <unconfigured@null.spigotmc.org>
+Date:   Fri Apr 8 14:51:49 2022 +0200
+
+    Add quantities to the items
+
+commit 9d8cbd7d76e1fb2e08db18466cecc3909dc8377d
+Author: BuildTools <unconfigured@null.spigotmc.org>
+Date:   Fri Apr 8 14:50:09 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit 5a7ada4f91239046c7ab65ed8d25bf3dc8c6f2d0
+Author: ZlatkoJovanovski <102656383+ZlatkoJovanovski@users.noreply.github.com>
+Date:   Fri Apr 8 14:42:04 2022 +0200
+
+    Update README.md
+
+commit 521daddfb9edfb95d2c082876bc651dcd0aa8079
+Author: ZlatkoJovanovski <102656383+ZlatkoJovanovski@users.noreply.github.com>
+Date:   Fri Apr 8 14:41:47 2022 +0200
+
+    Initial commit
+
+Се префрлам на гранка master.
+git checkout master
+
+Ја додавам (fastforward) гранка branch1 кон моменталната гранка на која сум односно master, не се јавува конфликт.
+git merge branch1
+
+Ја додавам (fastforward) гранка branch2 кон моменталната гранка на која сум односно master со , но се јавува конфликт.
+git merge branch2
+
+Ја користам оваа команда да го воочам конфликтот меѓу гранките кои при спојување јавиле конфликт.
+git status
+
+Ја користам оваа команда за да го модифицирам фајлот.
+git add .
+
+Правам commit на претходно модифицираниот фајл. 
+git commit -m "Merge conflict resolved"
+
+Го додавам 193195.txt фајлот кон репозиториумот правам commit на новододадениот фајл.
+git add "C:\Users\user\Documents\github\labs\193195.txt"
+git commit -m “Add docs”
+
+Ги синхронизирам сите гранки со оддалечениот репозипориум.
+git push origin --all
