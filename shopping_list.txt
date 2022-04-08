@@ -1,5 +1,11 @@
 Milk x2
 Water x3
 Chocolate x1
+<<<<<<< HEAD
 Apples x3
 Cheese x2
+=======
+Oranges x3
+Cheese x1
+Salt x1
+>>>>>>> branch2
