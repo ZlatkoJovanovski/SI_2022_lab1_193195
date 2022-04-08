@@ -2,4 +2,4 @@ Milk x2
 Water x3
 Chocolate x1
 Apples x3
-Cheese x1
+Cheese x2
